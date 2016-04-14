@@ -1,0 +1,11 @@
+Proceso sin_titulo
+	ano<-1900;
+	acumAno<-0;
+	contAno<-1900;	
+	Repetir
+		acumAno<-acumano+48;
+		contAno<-contAno+28;
+	Hasta Que (contAno>=2000)
+	acumAno<-acumAno-21;
+	Escribir "Los domingos que cayero el 1ro desde 1900 hasta  el 2000 son: ",acumAno;
+FinProceso
